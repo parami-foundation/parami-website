@@ -1,36 +1,44 @@
+/**
+ * @ Author: Hikaru
+ * @ Create Time: 2022-02-10 22:59:51
+ * @ Modified by: Hikaru
+ * @ Modified time: 2022-08-10 03:32:49
+ * @ Description: i@rua.moe
+ */
+
 .overviewContainer {
-    padding-bottom: 6rem;
-    padding-top: 6rem;
-    background-color: rgba(36,42,53,1);
-    transition-duration: .15s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transform: translateZ(0);
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  background-color: rgba(36,42,53,1);
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transform: translateZ(0);
+  width: 100%;
+
+  .title {
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-family: 'Josefin Sans';
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
 
-    .title {
-        margin-bottom: 3.5rem;
-        text-align: center;
-        font-weight: 800;
-        color: #fff;
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-        font-family: 'Josefin Sans';
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        text-align: center;
-        font-size: 1.2rem;
-        margin-top: 2rem;
-    }
-
-    .cover {
-        display: block;
-        width: 100%;
-    }
+  .cover {
+    display: block;
+    width: 100%;
+  }
 }

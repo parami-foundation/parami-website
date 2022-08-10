@@ -1,8 +1,4 @@
-/**
- * -------------------------------
- * The agent cannot take effect in the production environment
- * so there is no configuration of the production environment
- */
+
 export default {
   dev: {
     '/api/': {

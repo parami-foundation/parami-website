@@ -1,3 +1,11 @@
+/**
+ * @ Author: Hikaru
+ * @ Create Time: 2022-02-22 18:27:57
+ * @ Modified by: Hikaru
+ * @ Modified time: 2022-08-10 03:23:40
+ * @ Description: i@rua.moe
+ */
+
 import { SiDiscord, SiTwitter, SiMedium, SiTelegram } from 'react-icons/si';
 import { HiMail } from 'react-icons/hi';
 import { Footer } from 'antd/lib/layout/layout';

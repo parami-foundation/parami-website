@@ -1,43 +1,51 @@
+/**
+ * @ Author: Hikaru
+ * @ Create Time: 2022-01-25 03:22:08
+ * @ Modified by: Hikaru
+ * @ Modified time: 2022-08-10 03:29:43
+ * @ Description: i@rua.moe
+ */
+
 .signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(36,42,53,1);
+  width: 100%;
+
+  .title {
+    margin-bottom: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Josefin Sans';
+  }
+
+  .subtitle {
+    line-height: 1.625;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .inputContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: rgba(36,42,53,1);
     width: 100%;
+    margin-bottom: 2rem;
 
-    .title {
-        margin-bottom: 2.5rem;
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-        color: #fff;
-        font-weight: 800;
-        text-align: center;
-        font-family: 'Josefin Sans';
+    .input {
+      max-width: 500px;
+      width: 100%;
+      border-radius: 40px;
     }
-
-    .subtitle {
-        line-height: 1.625;
-        font-size: 1.125rem;
-        margin-bottom: 2rem;
-        color: #fff;
-        text-align: center;
-    }
-
-    .inputContainer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 2rem;
-
-        .input {
-            max-width: 500px;
-            width: 100%;
-            border-radius: 40px;
-        }
-    }
+  }
 }
