@@ -1,6 +1,20 @@
 import { IApi } from 'umi';
 
 export default (api: IApi) => {
+  api.modifyHTML(($) => {
+    $('head').append([
+      `<script async src="https://www.googletagmanager.com/gtag/js?id=G-1TNQLBFGEE"></script>`,
+      `<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1TNQLBFGEE');
+      </script>`,
+    ])
+    return $;
+  });
+
   api.addHTMLMetas(() => {
     return [
       {
