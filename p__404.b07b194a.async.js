@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkparami_website=self.webpackChunkparami_website||[]).push([[571],{50517:function(f,a,n){n.r(a),n.d(a,{default:function(){return r}});var u={page:{homePage:"/"}},e=n(67294),o=n(59841),t=n(85893),s=function(){return(0,e.useEffect)(function(){o.history.push(u.page.homePage)},[]),(0,t.jsx)(t.Fragment,{})},r=s}}]);
