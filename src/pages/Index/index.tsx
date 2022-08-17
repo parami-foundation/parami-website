@@ -2,7 +2,7 @@
  * @ Author: Hikaru
  * @ Create Time: 2022-02-22 18:27:57
  * @ Modified by: Hikaru
- * @ Modified time: 2022-08-13 01:41:14
+ * @ Modified time: 2022-08-17 16:26:20
  * @ Description: i@rua.moe
  */
 
@@ -34,7 +34,7 @@ const Index: React.FC = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 3500);
   }, []);
 
   return (
